@@ -1,0 +1,63 @@
+{
+    "videos":[
+        {
+            "videoId": 1,
+            "videoName": "Travis - Idlewild",
+            "videoCodigo": "WLKBOJ9jyQg",
+            "videoCat": "Musica",
+            "author": "admin",
+            "likes": 0
+        },
+        {
+            "videoId": 2,
+            "videoName": "Travis - 3 Miles High",
+            "videoCodigo": "w45_dsXLHNg",
+            "videoCat": "Musica",
+            "author": "admin",
+            "likes": 0
+        },
+        {
+            "videoId": 3,
+            "videoName": "Editors - The Racing Rats",
+            "videoCodigo": "KZhO3I9_XD0",
+            "videoCat": "Musica",
+            "author": "Jon",
+            "likes": 0
+        },
+        {
+            "videoId": 4,
+            "videoName": "Future Islands - Cave",
+            "videoCodigo": "RGrhubD8VDg",
+            "videoCat": "Musica",
+            "author": "Jon",
+            "likes": 0
+        },
+        {
+            "videoId": 5,
+            "videoName": "Tutorial de introducción a AngularJS | Mi primera app",
+            "videoCodigo": "W3KcalhYkaM",
+            "videoCat": "Programacion",
+            "author": "Lucas",
+            "likes": 0
+        }
+    ],
+    "users":[],
+    "categories":[
+        {
+            "id": 1,
+            "nameCat": "Musica"
+        },
+        {
+            "id": 2,
+            "nameCat": "Surf"
+        },
+        {
+            "id": 3,
+            "nameCat": "Programacion"
+        },
+        {
+            "id": 4,
+            "nameCat": "Bromas"
+        }
+    ]
+}

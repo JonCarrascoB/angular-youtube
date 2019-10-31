@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="youtubeApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube</title>
+
+    <!-- CSS externos-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+    <!-- CSS propio-->
+    <link rel="stylesheet" href="app.css">
+
+    <!-- librerias de la app -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+
+    <!-- scripts de la app -->
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script>
+
+    <!-- scripts de los servicios -->
+    <script src="core/youtube/youtube.module.js"></script>
+    <script src="core/youtube/youtube.service.js"></script>
+
+    <!-- scripts de los componentes -->
+    <script src="menu/menu.module.js"></script>
+    <script src="menu/menu.component.js"></script>
+    <script src="youtube-list/youtube-list.module.js"></script>
+    <script src="youtube-list/youtube-list.component.js"></script>
+    <script src="youtube-detail/youtube-detail.module.js"></script>
+    <script src="youtube-detail/youtube-detail.component.js"></script>
+
+
+
+</head>
+<body>
+    <menu></menu>
+    <br>
+    <div class="view-container">
+      <div ng-view class="view-frame"></div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
